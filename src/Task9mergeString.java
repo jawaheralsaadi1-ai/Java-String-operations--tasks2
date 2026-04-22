@@ -16,6 +16,7 @@ public class Task9mergeString {
                 if (i < text1.length()) result9 += text1.charAt(i); // Add letter from 'a' if it exists
                 if (i < text2.length()) result9 += text2.charAt(i); // Add letter from 'b' if it exists
             }
+            // Display the result
             System.out.println("Result: " + result9);
 
         }
